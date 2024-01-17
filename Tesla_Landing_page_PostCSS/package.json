@@ -10,8 +10,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "build": "postcss ./Tailwind/main.css -o public/tailwind.css",
-    "watch": "postcss ./Tailwind/main.css -o public/tailwind.css -w"
+    "build": "tailwind build -i ./Tailwind/main.css -o public/tailwind.css",
+    "watch": "tailwind build -i ./Tailwind/main.css -o public/tailwind.css -w"
   },
   "keywords": [],
   "author": "",
